@@ -1,0 +1,77 @@
+#  Finance Tracker
+
+A simple yet powerful **Personal Finance Tracker** built using **Python** and **Tkinter**.  
+It helps you track your **monthly income, expenses, categories**, and generate insightful charts — all in one beautiful GUI!
+
+---
+
+## Features
+
+-  Add income & expenses with categories
+-  Visual summary using **Pie Chart** and **Budget vs Spending bar graph**
+-  Save your monthly **budget** and check if you overspend
+-  View and manage **transaction history**
+-  Dark mode toggle
+-  Export data as **CSV**
+-  Auto-save charts as screenshots (optional)
+
+---
+
+##  Tech Stack
+
+- Python
+- Tkinter (GUI)
+- CSV (for data storage)
+- Matplotlib (for charts)
+- File system for backups and screenshots
+
+---
+
+##  How to Run
+
+###  Requirements
+
+- Python 3.x installed  
+- Modules: `tkinter`, `matplotlib`
+
+> Run this command if `matplotlib` not installed:
+```bash
+pip install matplotlib
+
+## Launch App
+python main.py
+
+## Folder Structure
+finance-tracker/
+│
+├── data/
+│   ├── transactions.csv     ← stores expense entries
+│   └── budget.txt           ← stores monthly budget
+│
+├── screenshots/             ← auto-saved summary chart images
+├── main.py                  ← your main application file
+└── README.md                ← this file
+
+📸 Screenshots
+All charts are saved inside the screenshots/ folder automatically if you enable the checkbox.
+
+Author
+Mursleen Mohd
+📧 mursleenmohd827@gmail.com
+🔗 LinkedIn
+
+## License
+This project is open-sourced under the MIT License.
+
+💡 Future Ideas (Optional)
+Login system
+
+Monthly savings calculation
+
+Cloud storage or database support
+
+Export to PDF
+
+yaml
+Copy
+Edit
